@@ -11,15 +11,15 @@ VR게임의 시대! 그런데 VR기기 너무 비싸고 불편하지 않나요? 
 ## 주요 서비스 화면
 
 ### 게임 실행 화면
-
+![게임실행화면](https://github.com/suminzzang/CatchPalm/blob/master/uploads/%EA%B2%8C%EC%9E%84%EC%8B%A4%ED%96%89%ED%99%94%EB%A9%B4.gif)
 ### 대기방
-![대기방](https://github.com/suminzzang/CatchPalm/assets/139725602/24220df1-4a2d-4934-b811-60bf8a3d4b7d)
+![대기방](https://github.com/suminzzang/CatchPalm/blob/master/uploads/%EB%8C%80%EA%B8%B0%EB%B0%A9.gif)
 
 ### 결과창
-![결과창](https://github.com/suminzzang/CatchPalm/assets/139725602/62b2f2d3-be69-481b-867f-bdebb503c702)
+![결과창](https://github.com/suminzzang/CatchPalm/blob/master/uploads/%EA%B2%B0%EA%B3%BC%EC%B0%BD.gif)
 
 ### 랭킹 창
-![랭킹창](/uploads/3afec457adb570dd5650e011bd790728/랭킹창.gif)
+![랭킹창](https://github.com/suminzzang/CatchPalm/blob/master/uploads/%EB%9E%AD%ED%82%B9%EC%B0%BD.gif)
 #### 더 자세한 정보는 https://github.com/suminzzang/CatchPalm/blob/master/scenario-details.md 에서!
 
 ---
@@ -77,12 +77,12 @@ VR게임의 시대! 그런데 VR기기 너무 비싸고 불편하지 않나요? 
 - Discord
 
 ## 요구사항 정의서
-![image](/uploads/5b79fcf3490948ac721ac5e13c1ea85d/image.png)
-![image](/uploads/14b8ae3e622d16289031963fca965dea/image.png)
+![image](https://github.com/suminzzang/CatchPalm/blob/master/uploads/%EC%9A%94%EA%B5%AC%EC%82%AC%ED%95%AD%EB%AA%85%EC%84%B8%EC%84%9C.png)
+![image](https://github.com/suminzzang/CatchPalm/blob/master/uploads/%EC%9A%94%EA%B5%AC%EC%82%AC%ED%95%AD%EB%AA%85%EC%84%B8%EC%84%9C2.png)
 
 ## ER Diagram
-![image](/uploads/373466011e559dcfcf3d367167bf51b6/image.png)
-![image](/uploads/d213e0a9c736d478a899096ea0c6a518/image.png)
+![image](https://github.com/suminzzang/CatchPalm/blob/master/uploads/ERD.png)
+![image](https://github.com/suminzzang/CatchPalm/blob/master/uploads/ERD2.png)
 
 ## EC2 포트 정리
 |Port|내용|
