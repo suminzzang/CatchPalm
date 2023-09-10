@@ -1,0 +1,597 @@
+[
+  {
+    "MusicNum": 1,
+    "MOTION_NUM": 3,
+    "X-COORDINATE": 0.31,
+    "Y-COORDINATE": 0.26,
+    "APPEAR_TIME": 2.931
+  },
+  {
+    "MusicNum": 1,
+    "MOTION_NUM": 5,
+    "X-COORDINATE": 0.32,
+    "Y-COORDINATE": 0.59,
+    "APPEAR_TIME": 4.22
+  },
+  {
+    "MusicNum": 1,
+    "MOTION_NUM": 4,
+    "X-COORDINATE": 0.46,
+    "Y-COORDINATE": 0.5,
+    "APPEAR_TIME": 5.615
+  },
+  {
+    "MusicNum": 1,
+    "MOTION_NUM": 5,
+    "X-COORDINATE": 0.6,
+    "Y-COORDINATE": 0.31,
+    "APPEAR_TIME": 7.19
+  },
+  {
+    "MusicNum": 1,
+    "MOTION_NUM": 2,
+    "X-COORDINATE": 0.47,
+    "Y-COORDINATE": 0.2,
+    "APPEAR_TIME": 9.537
+  },
+  {
+    "MusicNum": 1,
+    "MOTION_NUM": 1,
+    "X-COORDINATE": 0.5,
+    "Y-COORDINATE": 0.63,
+    "APPEAR_TIME": 10.268
+  },
+  {
+    "MusicNum": 1,
+    "MOTION_NUM": 1,
+    "X-COORDINATE": 0.4,
+    "Y-COORDINATE": 0.36,
+    "APPEAR_TIME": 10.798
+  },
+  {
+    "MusicNum": 1,
+    "MOTION_NUM": 6,
+    "X-COORDINATE": 0.62,
+    "Y-COORDINATE": 0.46,
+    "APPEAR_TIME": 12.255
+  },
+  {
+    "MusicNum": 1,
+    "MOTION_NUM": 7,
+    "X-COORDINATE": 0.28,
+    "Y-COORDINATE": 0.7,
+    "APPEAR_TIME": 13.016
+  },
+  {
+    "MusicNum": 1,
+    "MOTION_NUM": 2,
+    "X-COORDINATE": 0.26,
+    "Y-COORDINATE": 0.57,
+    "APPEAR_TIME": 14.376
+  },
+  {
+    "MusicNum": 1,
+    "MOTION_NUM": 4,
+    "X-COORDINATE": 0.66,
+    "Y-COORDINATE": 0.63,
+    "APPEAR_TIME": 14.882
+  },
+  {
+    "MusicNum": 1,
+    "MOTION_NUM": 6,
+    "X-COORDINATE": 0.52,
+    "Y-COORDINATE": 0.79,
+    "APPEAR_TIME": 15.831
+  },
+  {
+    "MusicNum": 1,
+    "MOTION_NUM": 3,
+    "X-COORDINATE": 0.79,
+    "Y-COORDINATE": 0.27,
+    "APPEAR_TIME": 16.527
+  },
+  {
+    "MusicNum": 1,
+    "MOTION_NUM": 2,
+    "X-COORDINATE": 0.45,
+    "Y-COORDINATE": 0.85,
+    "APPEAR_TIME": 17.332
+  },
+  {
+    "MusicNum": 1,
+    "MOTION_NUM": 2,
+    "X-COORDINATE": 0.32,
+    "Y-COORDINATE": 0.74,
+    "APPEAR_TIME": 18.161
+  },
+  {
+    "MusicNum": 1,
+    "MOTION_NUM": 5,
+    "X-COORDINATE": 0.39,
+    "Y-COORDINATE": 0.3,
+    "APPEAR_TIME": 18.668
+  },
+  {
+    "MusicNum": 1,
+    "MOTION_NUM": 6,
+    "X-COORDINATE": 0.65,
+    "Y-COORDINATE": 0.55,
+    "APPEAR_TIME": 19.485
+  },
+  {
+    "MusicNum": 1,
+    "MOTION_NUM": 7,
+    "X-COORDINATE": 0.69,
+    "Y-COORDINATE": 0.26,
+    "APPEAR_TIME": 20.586
+  },
+  {
+    "MusicNum": 1,
+    "MOTION_NUM": 2,
+    "X-COORDINATE": 0.68,
+    "Y-COORDINATE": 0.67,
+    "APPEAR_TIME": 21.113
+  },
+  {
+    "MusicNum": 1,
+    "MOTION_NUM": 6,
+    "X-COORDINATE": 0.62,
+    "Y-COORDINATE": 0.22,
+    "APPEAR_TIME": 22.335
+  },
+  {
+    "MusicNum": 1,
+    "MOTION_NUM": 6,
+    "X-COORDINATE": 0.66,
+    "Y-COORDINATE": 0.66,
+    "APPEAR_TIME": 23.467
+  },
+  {
+    "MusicNum": 1,
+    "MOTION_NUM": 2,
+    "X-COORDINATE": 0.69,
+    "Y-COORDINATE": 0.54,
+    "APPEAR_TIME": 24.167
+  },
+  {
+    "MusicNum": 1,
+    "MOTION_NUM": 2,
+    "X-COORDINATE": 0.61,
+    "Y-COORDINATE": 0.85,
+    "APPEAR_TIME": 24.721
+  },
+  {
+    "MusicNum": 1,
+    "MOTION_NUM": 3,
+    "X-COORDINATE": 0.54,
+    "Y-COORDINATE": 0.84,
+    "APPEAR_TIME": 25.342
+  },
+  {
+    "MusicNum": 1,
+    "MOTION_NUM": 5,
+    "X-COORDINATE": 0.44,
+    "Y-COORDINATE": 0.42,
+    "APPEAR_TIME": 26.376
+  },
+  {
+    "MusicNum": 1,
+    "MOTION_NUM": 4,
+    "X-COORDINATE": 0.49,
+    "Y-COORDINATE": 0.65,
+    "APPEAR_TIME": 27.127
+  },
+  {
+    "MusicNum": 1,
+    "MOTION_NUM": 3,
+    "X-COORDINATE": 0.67,
+    "Y-COORDINATE": 0.6,
+    "APPEAR_TIME": 28.352
+  },
+  {
+    "MusicNum": 1,
+    "MOTION_NUM": 5,
+    "X-COORDINATE": 0.51,
+    "Y-COORDINATE": 0.21,
+    "APPEAR_TIME": 29.831
+  },
+  {
+    "MusicNum": 1,
+    "MOTION_NUM": 4,
+    "X-COORDINATE": 0.38,
+    "Y-COORDINATE": 0.41,
+    "APPEAR_TIME": 31.001
+  },
+  {
+    "MusicNum": 1,
+    "MOTION_NUM": 5,
+    "X-COORDINATE": 0.47,
+    "Y-COORDINATE": 0.31,
+    "APPEAR_TIME": 31.956
+  },
+  {
+    "MusicNum": 1,
+    "MOTION_NUM": 4,
+    "X-COORDINATE": 0.2,
+    "Y-COORDINATE": 0.39,
+    "APPEAR_TIME": 33.16
+  },
+  {
+    "MusicNum": 1,
+    "MOTION_NUM": 3,
+    "X-COORDINATE": 0.4,
+    "Y-COORDINATE": 0.41,
+    "APPEAR_TIME": 33.899
+  },
+  {
+    "MusicNum": 1,
+    "MOTION_NUM": 4,
+    "X-COORDINATE": 0.27,
+    "Y-COORDINATE": 0.64,
+    "APPEAR_TIME": 34.612
+  },
+  {
+    "MusicNum": 1,
+    "MOTION_NUM": 4,
+    "X-COORDINATE": 0.3,
+    "Y-COORDINATE": 0.25,
+    "APPEAR_TIME": 36.093
+  },
+  {
+    "MusicNum": 1,
+    "MOTION_NUM": 6,
+    "X-COORDINATE": 0.81,
+    "Y-COORDINATE": 0.16,
+    "APPEAR_TIME": 37.115
+  },
+  {
+    "MusicNum": 1,
+    "MOTION_NUM": 1,
+    "X-COORDINATE": 0.51,
+    "Y-COORDINATE": 0.68,
+    "APPEAR_TIME": 37.977
+  },
+  {
+    "MusicNum": 1,
+    "MOTION_NUM": 4,
+    "X-COORDINATE": 0.7,
+    "Y-COORDINATE": 0.62,
+    "APPEAR_TIME": 39.3
+  },
+  {
+    "MusicNum": 1,
+    "MOTION_NUM": 2,
+    "X-COORDINATE": 0.25,
+    "Y-COORDINATE": 0.5,
+    "APPEAR_TIME": 39.973
+  },
+  {
+    "MusicNum": 1,
+    "MOTION_NUM": 1,
+    "X-COORDINATE": 0.71,
+    "Y-COORDINATE": 0.19,
+    "APPEAR_TIME": 40.518
+  },
+  {
+    "MusicNum": 1,
+    "MOTION_NUM": 2,
+    "X-COORDINATE": 0.27,
+    "Y-COORDINATE": 0.49,
+    "APPEAR_TIME": 41.654
+  },
+  {
+    "MusicNum": 1,
+    "MOTION_NUM": 5,
+    "X-COORDINATE": 0.18,
+    "Y-COORDINATE": 0.52,
+    "APPEAR_TIME": 42.885
+  },
+  {
+    "MusicNum": 1,
+    "MOTION_NUM": 6,
+    "X-COORDINATE": 0.63,
+    "Y-COORDINATE": 0.49,
+    "APPEAR_TIME": 44.228
+  },
+  {
+    "MusicNum": 1,
+    "MOTION_NUM": 5,
+    "X-COORDINATE": 0.47,
+    "Y-COORDINATE": 0.77,
+    "APPEAR_TIME": 44.788
+  },
+  {
+    "MusicNum": 1,
+    "MOTION_NUM": 6,
+    "X-COORDINATE": 0.15,
+    "Y-COORDINATE": 0.65,
+    "APPEAR_TIME": 46.036
+  },
+  {
+    "MusicNum": 1,
+    "MOTION_NUM": 4,
+    "X-COORDINATE": 0.2,
+    "Y-COORDINATE": 0.82,
+    "APPEAR_TIME": 47.314
+  },
+  {
+    "MusicNum": 1,
+    "MOTION_NUM": 3,
+    "X-COORDINATE": 0.68,
+    "Y-COORDINATE": 0.8,
+    "APPEAR_TIME": 48.043
+  },
+  {
+    "MusicNum": 1,
+    "MOTION_NUM": 5,
+    "X-COORDINATE": 0.24,
+    "Y-COORDINATE": 0.8,
+    "APPEAR_TIME": 49.115
+  },
+  {
+    "MusicNum": 1,
+    "MOTION_NUM": 3,
+    "X-COORDINATE": 0.8,
+    "Y-COORDINATE": 0.49,
+    "APPEAR_TIME": 49.945
+  },
+  {
+    "MusicNum": 1,
+    "MOTION_NUM": 4,
+    "X-COORDINATE": 0.69,
+    "Y-COORDINATE": 0.43,
+    "APPEAR_TIME": 50.891
+  },
+  {
+    "MusicNum": 1,
+    "MOTION_NUM": 4,
+    "X-COORDINATE": 0.7,
+    "Y-COORDINATE": 0.38,
+    "APPEAR_TIME": 52.027
+  },
+  {
+    "MusicNum": 1,
+    "MOTION_NUM": 2,
+    "X-COORDINATE": 0.61,
+    "Y-COORDINATE": 0.52,
+    "APPEAR_TIME": 53.39
+  },
+  {
+    "MusicNum": 1,
+    "MOTION_NUM": 4,
+    "X-COORDINATE": 0.43,
+    "Y-COORDINATE": 0.23,
+    "APPEAR_TIME": 54.325
+  },
+  {
+    "MusicNum": 1,
+    "MOTION_NUM": 3,
+    "X-COORDINATE": 0.27,
+    "Y-COORDINATE": 0.18,
+    "APPEAR_TIME": 55.731
+  },
+  {
+    "MusicNum": 1,
+    "MOTION_NUM": 5,
+    "X-COORDINATE": 0.27,
+    "Y-COORDINATE": 0.65,
+    "APPEAR_TIME": 56.785
+  },
+  {
+    "MusicNum": 1,
+    "MOTION_NUM": 4,
+    "X-COORDINATE": 0.46,
+    "Y-COORDINATE": 0.19,
+    "APPEAR_TIME": 58.159
+  },
+  {
+    "MusicNum": 1,
+    "MOTION_NUM": 6,
+    "X-COORDINATE": 0.3,
+    "Y-COORDINATE": 0.64,
+    "APPEAR_TIME": 58.675
+  },
+  {
+    "MusicNum": 1,
+    "MOTION_NUM": 2,
+    "X-COORDINATE": 0.68,
+    "Y-COORDINATE": 0.59,
+    "APPEAR_TIME": 59.863
+  },
+  {
+    "MusicNum": 1,
+    "MOTION_NUM": 2,
+    "X-COORDINATE": 0.41,
+    "Y-COORDINATE": 0.81,
+    "APPEAR_TIME": 60.464
+  },
+  {
+    "MusicNum": 1,
+    "MOTION_NUM": 3,
+    "X-COORDINATE": 0.79,
+    "Y-COORDINATE": 0.6,
+    "APPEAR_TIME": 61.86
+  },
+  {
+    "MusicNum": 1,
+    "MOTION_NUM": 7,
+    "X-COORDINATE": 0.52,
+    "Y-COORDINATE": 0.48,
+    "APPEAR_TIME": 62.388
+  },
+  {
+    "MusicNum": 1,
+    "MOTION_NUM": 7,
+    "X-COORDINATE": 0.53,
+    "Y-COORDINATE": 0.59,
+    "APPEAR_TIME": 62.988
+  },
+  {
+    "MusicNum": 1,
+    "MOTION_NUM": 5,
+    "X-COORDINATE": 0.19,
+    "Y-COORDINATE": 0.35,
+    "APPEAR_TIME": 64.049
+  },
+  {
+    "MusicNum": 1,
+    "MOTION_NUM": 5,
+    "X-COORDINATE": 0.52,
+    "Y-COORDINATE": 0.2,
+    "APPEAR_TIME": 65.008
+  },
+  {
+    "MusicNum": 1,
+    "MOTION_NUM": 5,
+    "X-COORDINATE": 0.6,
+    "Y-COORDINATE": 0.59,
+    "APPEAR_TIME": 66.141
+  },
+  {
+    "MusicNum": 1,
+    "MOTION_NUM": 4,
+    "X-COORDINATE": 0.82,
+    "Y-COORDINATE": 0.58,
+    "APPEAR_TIME": 67.214
+  },
+  {
+    "MusicNum": 1,
+    "MOTION_NUM": 1,
+    "X-COORDINATE": 0.23,
+    "Y-COORDINATE": 0.4,
+    "APPEAR_TIME": 68.429
+  },
+  {
+    "MusicNum": 1,
+    "MOTION_NUM": 5,
+    "X-COORDINATE": 0.64,
+    "Y-COORDINATE": 0.81,
+    "APPEAR_TIME": 69.344
+  },
+  {
+    "MusicNum": 1,
+    "MOTION_NUM": 1,
+    "X-COORDINATE": 0.36,
+    "Y-COORDINATE": 0.55,
+    "APPEAR_TIME": 70.713
+  },
+  {
+    "MusicNum": 1,
+    "MOTION_NUM": 2,
+    "X-COORDINATE": 0.53,
+    "Y-COORDINATE": 0.64,
+    "APPEAR_TIME": 71.781
+  },
+  {
+    "MusicNum": 1,
+    "MOTION_NUM": 5,
+    "X-COORDINATE": 0.76,
+    "Y-COORDINATE": 0.83,
+    "APPEAR_TIME": 72.37
+  },
+  {
+    "MusicNum": 1,
+    "MOTION_NUM": 5,
+    "X-COORDINATE": 0.85,
+    "Y-COORDINATE": 0.34,
+    "APPEAR_TIME": 73.772
+  },
+  {
+    "MusicNum": 1,
+    "MOTION_NUM": 3,
+    "X-COORDINATE": 0.45,
+    "Y-COORDINATE": 0.51,
+    "APPEAR_TIME": 75.038
+  },
+  {
+    "MusicNum": 1,
+    "MOTION_NUM": 4,
+    "X-COORDINATE": 0.72,
+    "Y-COORDINATE": 0.69,
+    "APPEAR_TIME": 75.892
+  },
+  {
+    "MusicNum": 1,
+    "MOTION_NUM": 3,
+    "X-COORDINATE": 0.29,
+    "Y-COORDINATE": 0.79,
+    "APPEAR_TIME": 76.766
+  },
+  {
+    "MusicNum": 1,
+    "MOTION_NUM": 3,
+    "X-COORDINATE": 0.33,
+    "Y-COORDINATE": 0.48,
+    "APPEAR_TIME": 78.14
+  },
+  {
+    "MusicNum": 1,
+    "MOTION_NUM": 6,
+    "X-COORDINATE": 0.24,
+    "Y-COORDINATE": 0.23,
+    "APPEAR_TIME": 78.944
+  },
+  {
+    "MusicNum": 1,
+    "MOTION_NUM": 5,
+    "X-COORDINATE": 0.39,
+    "Y-COORDINATE": 0.45,
+    "APPEAR_TIME": 80.322
+  },
+  {
+    "MusicNum": 1,
+    "MOTION_NUM": 7,
+    "X-COORDINATE": 0.81,
+    "Y-COORDINATE": 0.73,
+    "APPEAR_TIME": 81.501
+  },
+  {
+    "MusicNum": 1,
+    "MOTION_NUM": 6,
+    "X-COORDINATE": 0.83,
+    "Y-COORDINATE": 0.43,
+    "APPEAR_TIME": 82.156
+  },
+  {
+    "MusicNum": 1,
+    "MOTION_NUM": 6,
+    "X-COORDINATE": 0.34,
+    "Y-COORDINATE": 0.55,
+    "APPEAR_TIME": 83.646
+  },
+  {
+    "MusicNum": 1,
+    "MOTION_NUM": 4,
+    "X-COORDINATE": 0.31,
+    "Y-COORDINATE": 0.54,
+    "APPEAR_TIME": 84.981
+  },
+  {
+    "MusicNum": 1,
+    "MOTION_NUM": 1,
+    "X-COORDINATE": 0.68,
+    "Y-COORDINATE": 0.27,
+    "APPEAR_TIME": 85.55
+  },
+  {
+    "MusicNum": 1,
+    "MOTION_NUM": 4,
+    "X-COORDINATE": 0.74,
+    "Y-COORDINATE": 0.47,
+    "APPEAR_TIME": 86.354
+  },
+  {
+    "MusicNum": 1,
+    "MOTION_NUM": 5,
+    "X-COORDINATE": 0.17,
+    "Y-COORDINATE": 0.79,
+    "APPEAR_TIME": 87.017
+  },
+  {
+    "MusicNum": 1,
+    "MOTION_NUM": 4,
+    "X-COORDINATE": 0.72,
+    "Y-COORDINATE": 0.3,
+    "APPEAR_TIME": 87.783
+  }
+]

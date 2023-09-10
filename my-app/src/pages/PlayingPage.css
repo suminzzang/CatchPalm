@@ -1,0 +1,117 @@
+video {
+	/* position: absolute; */
+  transform: scaleX(-1);
+	filter: brightness(40%);
+}
+
+#loading {
+  width: 100vw;
+  height: 100vh;
+}
+
+#videoSrc {
+  position: absolute;
+}
+
+#webcam { 
+  position: absolute;
+}
+
+canvas {
+  position: absolute;
+  z-index: 2;
+  transform: scaleX(-1);
+}
+
+#toggleWebcam {
+  display: inline-flex;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 2;
+}
+
+#countdown {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+#score {
+  font-size: 50px;
+  font-weight: bold;
+  position: absolute;
+  left: 10px;
+  color: white;
+  z-index: 2;
+  margin-left: 10px;
+}
+
+
+.circle {
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    background-color: skyblue;
+    border: 10px solid royalblue;
+    border-radius: 50%;
+    position: absolute;
+    display: block;
+    opacity:0.6;
+  }
+
+.circle-out {
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    border: 10px solid royalblue;
+    border-radius: 50%;
+    position: absolute;
+    display: block;
+    opacity:0.6;
+  }
+
+  .motion1 {
+    background-image: url("../../public/assets/motion1.png");
+    background-position: center;
+    background-size: 80px 80px; 
+    background-repeat: no-repeat;
+  }
+  .motion2 {
+    background-image: url("../../public/assets/motion2.png");
+    background-position: center;
+    background-size: 80px 80px; 
+    background-repeat: no-repeat;
+  }
+  .motion3 {
+    background-image: url("../../public/assets/motion3.png");
+    background-position: center;
+    background-size: 80px 80px; 
+    background-repeat: no-repeat;
+  }
+  .motion4 {
+    background-image: url("../../public/assets/motion4.png");
+    background-position: center;
+    background-size: 80px 80px; 
+    background-repeat: no-repeat;
+  }
+  .motion5 {
+    background-image: url("../../public/assets/motion5.png");
+    background-position: center;
+    background-size: 80px 80px; 
+    background-repeat: no-repeat;
+  }
+  .motion6 {
+    background-image: url("../../public/assets/motion6.png");
+    background-position: center;
+    background-size: 80px 80px; 
+    background-repeat: no-repeat;
+  }
+  .motion7 {
+    background-image: url("../../public/assets/motion7.png");
+    background-position: center;
+    background-size: 80px 80px; 
+    background-repeat: no-repeat;
+  }

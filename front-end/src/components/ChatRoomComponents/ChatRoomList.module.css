@@ -1,0 +1,351 @@
+/* ChatRoomList.css */
+.background_videoChatList {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  object-fit: cover;
+  filter: brightness(0.6);  /* 밝기를 150%로 설정 */
+}
+
+/* 비디오 요소에 직접 스타일을 적용하여 크기와 위치를 조정합니다 */
+
+.main_div {
+  width: 80%;
+  border-radius: 20px;
+  
+}
+
+.background_div {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+  margin-top: 12%;
+}
+
+
+/* 모달 스타일 */
+.modal {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal_content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  color: hsl(317 100% 54%);
+  border: hsl(317 100% 54%) 0.125em solid;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 0.25em;
+  text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3), 0 0 0.45em currentColor;
+  box-shadow: inset 0 0 0.5em 0 hsl(317 100% 54%), 0 0 0.5em 0 hsl(317 100% 54%);
+  font-family: "Jua", sans-serif;
+  font-size: 16px;
+}
+
+.modal_content_password {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  color: hsl(317 100% 54%);
+  border: hsl(317 100% 54%) 0.125em solid;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 0.25em;
+  text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3), 0 0 0.45em currentColor;
+  box-shadow: inset 0 0 0.5em 0 hsl(317 100% 54%), 0 0 0.5em 0 hsl(317 100% 54%);
+  font-family: "Jua", sans-serif;
+  font-size: 16px;
+}
+
+.modal h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.modal label {
+  font-size: 16px;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.modal input[type="text"],
+.modal input[type="number"],
+.modal input[type="password"] {
+  padding: 8px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.modal button {
+  padding: 8px 16px;
+  margin-right: 8px;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+}
+
+.modal button.confirm {
+  background-color: #007bff;
+}
+
+.modal button.close {
+  background-color: #dc3545;
+}
+
+/* 방 목록 스타일 */
+.chat-room {
+  background-color: #f8f9fa;
+  padding: 16px;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+.chat-room button {
+  padding: 8px 16px;
+  margin-right: 8px;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+}
+
+.chat-room button.password {
+  background-color: #007bff;
+}
+
+.chat-room button.enter {
+  background-color: #28a745;
+}
+
+.chat-room button.disabled {
+  background-color: #6c757d;
+  cursor: not-allowed;
+}
+
+.chat-room p {
+  margin: 4px 0;
+  font-size: 16px;
+}
+
+/* 방 카테고리 스타일 */
+.category-button {
+  padding: 8px 16px;
+  margin-right: 8px;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+}
+
+.category-button.single {
+  background-color: #007bff;
+}
+
+.category-button.team {
+  background-color: #28a745;
+}
+
+/* 비밀번호 입력창 스타일 */
+.password-input {
+  display: flex;
+  align-items: center;
+  margin-top: 8px;
+}
+
+.password-input label {
+  font-size: 16px;
+  margin-right: 8px;
+}
+
+
+.use-password {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.password-input input[type="password"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.password-input button {
+  padding: 8px 16px;
+  margin-left: 8px;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  background-color: #28a745;
+}
+
+.inside_div::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background: rgba(0, 0, 0, 0.0);
+	border-radius: 60px;
+}
+
+
+.inside_div::-webkit-scrollbar
+{
+	width: 10px;
+	background: rgba(0, 0, 0, 0.0);
+  border-radius: 60px;
+}
+
+.inside_div::-webkit-scrollbar-thumb
+{
+	border-radius: 60px;
+	background-image: -webkit-gradient(linear,
+    left bottom,
+    left top,
+    color-stop(0.44, rgb(233, 6, 127)),
+    color-stop(0.72, rgb(187, 4, 148)),
+    color-stop(0.86, rgb(167, 5, 99)));
+}
+
+.inside_div {
+  border-radius: 15px; /* 모서리를 둥글게 만듭니다. 원하는 정도로 조절하세요. */
+  /* border: 4px solid rgb(68, 68, 173);  */
+  margin: 5px;
+  overflow-y: auto; /* 스크롤이 필요한 경우에만 보이도록 설정 */
+  align-content: flex-start;
+  width: 80%;
+  height: 400px;
+  border: 5px solid;
+  border-color: rgb(179, 57, 149);
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.button_chatRoomList {
+  width: 45%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 15px 15px 35px;
+  text-align: center;
+  border-radius: 15px;
+  font-family: "Jua", sans-serif;
+  font-size: 16px;
+  /* background: rgba(0, 0, 0, 0.2); */
+}
+
+.ChatRoomList_minibackground {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  width: 300px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.neon_button_ul {
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  color: hsl(317 100% 54%);
+  /* text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3), 0 0 0.45em currentColor; */
+  position: relative;
+  font-family: "Jua", sans-serif;
+  font-size: 16px;
+}
+
+.neon_button_input {
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  color: hsl(317 100% 54%);
+  border: hsl(317 100% 54%) 0.125em solid;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 0.25em;
+  /* text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3), 0 0 0.45em currentColor; */
+  box-shadow: inset 0 0 0.5em 0 hsl(317 100% 54%), 0 0 0.5em 0 hsl(317 100% 54%);
+  position: relative;
+  font-family: "Jua", sans-serif;
+  font-size: 16px;
+}
+
+
+
+.neon_button {
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  color: hsl(317 100% 54%);
+  border: hsl(317 100% 54%) 0.125em solid;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 0.25em;
+  text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3), 0 0 0.45em currentColor;
+  box-shadow: inset 0 0 0.5em 0 hsl(317 100% 54%), 0 0 0.5em 0 hsl(317 100% 54%);
+  position: relative;
+  font-family: "Jua", sans-serif;
+  font-size: 16px;
+}
+
+.neon_button::before {
+  pointer-events: none;
+  content: "";
+  position: absolute;
+  top: 120%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: perspective(1em) rotateX(40deg) scale(1, 0.35);
+  filter: blur(1em);
+  opacity: 0.7;
+}
+
+.neon_button::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  box-shadow: 0 0 2em 0.5em hsl(317 100% 54%);
+  opacity: 0;
+  background-color: hsl(317 100% 54%);
+  z-index: -1;
+  transition: opacity 100ms linear;
+}
+
+.neon_button:hover,
+.neon_button:focus {
+  color: hsl(323 21% 16%);
+  text-shadow: none;
+}
+
+.neon_button:hover::before,
+.neon_button:focus::before {
+  opacity: 1;
+}
+.neon_button:hover::after,
+.neon_button:focus::after {
+  opacity: 1;
+}

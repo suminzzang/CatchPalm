@@ -1,0 +1,161 @@
+/* App.module.css */
+
+/* 페이지 전체 배경 */
+
+
+/* 유저 정보 헤더 */
+.h1 {
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* 프로필 이미지 */
+.img {
+  border-radius: 75px; /* 이미지를 원형으로 만듭니다 */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* 이미지에 약간의 그림자 추가 */
+}
+
+/* 모든 버튼에 대한 스타일 */
+.button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px;
+  transition: background-color 0.3s ease;
+}
+
+/* 버튼 호버 시 */
+.button:hover {
+  background-color: #45a049;
+}
+
+/* 텍스트와 버튼 간격 */
+p {
+  margin: 7px 0;
+}
+
+
+/* 회원탈퇴 css */
+.signout {
+padding: 10px 20px;
+border: 1px solid red;
+cursor: pointer;
+transition: background-color 0.2s;
+width: fit-content;
+display: flex;
+position: absolute;
+right: 10px;
+bottom: 10px;
+}
+
+.signout-container {
+position: absolute;
+bottom: 10px;  /* adjust as needed */
+right: 10px; /* adjust as needed */
+}
+
+.signout:hover {
+background-color: red;
+}
+
+
+/* 로그아웃버튼 css */
+.logout {
+padding: 10px 10px;
+border: 1px solid #ccc;
+cursor: pointer;
+transition: background-color 0.2s;
+width: fit-content;
+display: flex;
+position: absolute;
+left: 10px;
+bottom: 10px;
+}
+
+
+.logout-container {
+position: absolute;
+bottom: 10px;  
+left: 10px; 
+}
+
+.logout:hover {
+background-color: #f5f5f5;
+}
+
+.neon_button_input {
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  color: hsl(143, 82%, 46%);
+  border: hsl(143, 82%, 46%) 0.125em solid;
+  /* background-color: rgba(0, 0, 0, 0.3); */
+  border-radius: 0.25em;
+  /* text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3), 0 0 0.45em currentColor; */
+  box-shadow: inset 0 0 0.5em 0 hsl(143, 82%, 46%), 0 0 0.5em 0 hsl(143, 82%, 46%);
+  position: relative;
+  font-family: "Jua", sans-serif;
+  font-size: 16px;
+}
+
+
+.neon_button {
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+  border: hsl(143, 82%, 46%) 0.125em solid;
+  /* background-color: rgba(0, 0, 0, 0.3); */
+  border-radius: 0.25em;
+  
+  box-shadow: inset 0 0 0.5em 0 hsl(143, 82%, 46%), 0 0 0.5em 0 hsl(143, 82%, 46%);
+  position: relative;
+  font-family: "Jua", sans-serif;
+  font-size: 16px;
+}
+
+.neon_button::before {
+  pointer-events: none;
+  content: "";
+  position: absolute;
+  top: 120%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: perspective(1em) rotateX(40deg) scale(1, 0.35);
+  filter: blur(1em);
+  opacity: 0.7;
+}
+
+.neon_button::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  box-shadow: 0 0 2em 0.5em hsl(317 100% 54%);
+  opacity: 0;
+  background-color: hsl(317 100% 54%);
+  z-index: -1;
+  transition: opacity 100ms linear;
+}
+
+.neon_button:hover,
+.neon_button:focus {
+  color: hsl(323 21% 16%);
+  text-shadow: none;
+}
+
+.neon_button:hover::before,
+.neon_button:focus::before {
+  opacity: 1;
+}
+.neon_button:hover::after
+ {
+  opacity: 1;
+}

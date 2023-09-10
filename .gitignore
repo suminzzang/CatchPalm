@@ -1,0 +1,51 @@
+/.idea/
+
+back-end/*.properties
+back-end/*.log
+
+back-end/HELP.md
+back-end/.gradle
+back-end/build/
+back-end/!gradle/wrapper/gradle-wrapper.jar
+back-end/!**/src/main/**/build/
+back-end/!**/src/test/**/build/
+back-end/application.properties
+back-end/ssafy-web.log
+
+### STS ###
+back-end/.apt_generated
+back-end/.classpath
+back-end/.factorypath
+back-end/.project
+back-end/.settings
+back-end/.springBeans
+back-end/.sts4-cache
+back-end/bin/
+back-end/!**/src/main/**/bin/
+back-end/!**/src/test/**/bin/
+
+### IntelliJ IDEA ###
+back-end/.idea
+back-end/*.iws
+back-end/*.iml
+back-end/*.ipr
+back-end/out/
+back-end/!**/src/main/**/out/
+back-end/!**/src/test/**/out/
+back-end/*.properties
+back-end/*.log
+back-end/*.gz
+
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+.vscode/
+
+### keystore ###
+*.p12
+*.cer

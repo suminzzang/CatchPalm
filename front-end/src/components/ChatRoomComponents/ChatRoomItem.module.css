@@ -1,0 +1,596 @@
+.gameRoomBody *{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* 동영상  */
+.background_video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  object-fit: cover;
+  filter: brightness(1.3);  /* 밝기를 150%로 설정 */
+}
+
+
+
+
+.clearfix:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.form_control {
+  width: 100%;
+    min-height: 38px;
+    font-size: 15px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 5px;
+    color: azure;
+    border: none;
+}
+
+.form_group {
+  margin-bottom: 15px;
+}
+
+input {
+  padding-left: 10px;
+  outline: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 1.7em;
+}
+
+a {
+  color: #6db33f;
+}
+
+button {
+  box-shadow: none;
+  border: 1px solid transparent;
+  font-size: 14px;
+  outline: none;
+  line-height: 100%;
+  white-space: nowrap;
+  vertical-align: middle;
+  padding: 0.6rem 1rem;
+  border-radius: 2px;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  min-height: 38px;
+}
+
+button.default {
+  background-color: #e8e8e8;
+  color: #333;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12);
+}
+
+button.primary {
+  background-color: rgba(0, 0, 0, 0.4);
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12);
+    color: rgb(0, 255, 127);
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+button.primary:hover{
+  color: white;
+  background-color: rgba(0, 255, 127);
+  border: none;
+}
+
+button.accent {
+  background-color: #6db33f;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12);
+  color: #fff;
+}
+
+#username-page {
+  text-align: center;
+}
+
+.username-page-container {
+  background: #fff;
+  box-shadow: 0 1px 11px rgba(0, 0, 0, 0.27);
+  border-radius: 2px;
+  width: 100%;
+  max-width: 500px;
+  display: inline-block;
+  margin-top: 42px;
+  vertical-align: middle;
+  position: relative;
+  padding: 35px 55px 35px;
+  min-height: 250px;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  margin-top: -160px;
+}
+
+/* .username-page-container .username-submit {
+  margin-top: 10px;
+} */
+
+
+#chat-page {
+  position: relative;
+  bottom: 0px;
+  padding: 0px 10px;
+}
+
+.chat_container {
+  max-width: 40%;
+  box-shadow: 0 1px 11px rgba(0, 0, 0, 0.27);
+  position: relative;
+  height: 25rem;
+  max-height: 400px;
+  display: inline-block;
+  width: 40%;
+  background-color: rgba(0, 0, 0, 0.8);
+    color: greenyellow;
+}
+
+#chat-page ul {
+  list-style-type: none;
+  background-color: rgba(0, 0, 0, 0.6);
+  margin: 0;
+  overflow: auto;
+  overflow-y: scroll;
+  padding: 0 20px 0px 20px;
+  height: calc(100% - 97px);
+}
+
+
+#chat-page ul li {
+  line-height: 1.5rem;
+  padding: 10px 20px;
+  margin: 0;
+}
+
+#chat-page ul li p {
+  margin: 0;
+}
+
+#chat-page .event-message {
+  width: 100%;
+  text-align: center;
+  clear: both;
+  color: aquamarine;
+}
+
+#chat-page .event-message p {
+  color: greenyellow;
+  font-size: 14px;
+  word-wrap: break-word;
+}
+
+#chat-page .chat_message {
+  padding-left: 68px;
+  position: relative;
+
+}
+
+#chat-page .chat_message i {
+  position: absolute;
+  width: 42px;
+  height: 42px;
+  overflow: hidden;
+  left: 10px;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 18px;
+  line-height: 42px;
+  color: #fff;
+  text-align: center;
+  border-radius: 50%;
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+#chat-page .chat_message span {
+  color: springgreen;
+  font-weight: 600;
+}
+
+#chat-page .chat_message p {
+  color: azure;
+}
+
+#messageForm .input_group input {
+  float: left;
+  width: calc(100% - 85px);
+}
+
+#messageForm .input_group button {
+  float: left;
+  width: 80px;
+  height: 38px;
+  margin-left: 5px;
+}
+
+.chat_header {
+  padding: 10px;
+  border-bottom: 1px solid #ececec;
+}
+
+.chat_header h2 {
+  margin: 0;
+  font-weight: 500;
+}
+
+.connecting {
+  padding-top: 5px;
+  text-align: center;
+  color: #777;
+  position: absolute;
+  top: 65px;
+  width: 100%;
+}
+.scrollbar::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background: rgba(0, 0, 0, 0.0);
+	border-radius: 60px;
+}
+
+.scrollbar::-webkit-scrollbar
+{
+	width: 5px;
+	background: rgba(0, 0, 0, 0.0);
+  border-radius: 60px;
+}
+
+.scrollbar::-webkit-scrollbar-thumb
+{
+	border-radius: 60px;
+	background-image: -webkit-gradient(linear,
+    left bottom,
+    left top,
+    color-stop(0.44, rgb(173, 34, 183)),
+    color-stop(0.72, rgb(118, 17, 81)),
+    color-stop(0.86, rgb(80, 2, 79)));
+}
+/* body {
+  padding: 70px 0;
+} */
+
+.container {
+  margin: 0 auto;
+  width: 270px;
+  height: 200px;
+  position: relative;
+  perspective: 1000px;
+}
+
+.carousel {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  transform-style: preserve-3d;
+  transition: transform 1s;
+}
+
+.item {
+  display: block;
+  position: absolute;
+  background: #000;
+  width: 250px;
+  height: 200px;
+  font-size: 5em;
+  text-align: center;
+  color: #FFF;
+  opacity: 0.95;
+  border-radius: 10px;
+  border: 10px solid transparent;
+  border-image-source: linear-gradient(45deg, #f06, #0cf, #f06, #0cf);
+  border-image-slice: 1;
+  animation: border-animation 3s infinite linear;
+}
+
+@keyframes border-animation {
+  0%, 100% {
+    border-image-source: linear-gradient(45deg, #f06, #0cf, #f06, #0cf);
+  }
+  25% {
+    border-image-source: linear-gradient(45deg, #0cf, #f06, #0cf, #f06);
+  }
+  50% {
+    border-image-source: linear-gradient(45deg, #f06, #0cf, #f06, #0cf);
+  }
+  75% {
+    border-image-source: linear-gradient(45deg, #0cf, #f06, #0cf, #f06);
+  }
+}
+/* 음악리스트 */
+.a1 {
+  transform: rotateY(0deg) translateZ(250px);
+}
+.a2 {
+  transform: rotateY(60deg) translateZ(250px);
+}
+.a3 {
+  transform: rotateY(120deg) translateZ(250px);
+}
+.a4 {
+  transform: rotateY(180deg) translateZ(250px);
+}
+.a5 {
+  transform: rotateY(240deg) translateZ(250px);
+} 
+.a6 {
+  transform: rotateY(300deg) translateZ(250px);
+}
+
+.info_container {
+  padding: 10px;
+}
+
+.music_name {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 7px;
+  margin-top: 7px;
+}
+
+.music_details {
+  font-size: 14px;
+  color: #eae6e6;
+}
+
+.detail_item {
+  margin-bottom: 5px;
+}
+
+.next, .prev {
+  color: springgreen;
+    position: absolute;
+    top: 5%;
+    padding: 2em 1em;
+    cursor: pointer;
+    transition: box-shadow 0.1s, top 0.1s;
+    margin-top: 5%;
+    font-size: 50px;
+    font-weight: 900;
+}
+.next { right: 5em; }
+.prev { left: 5em; }
+
+.pickedMusic{
+  display: list-item;
+  position: absolute;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50px;
+}
+.pickbtn{
+  display: inline-flex;
+  position: absolute;
+  border-radius: 10px;
+  right: 0px;
+  bottom: 0px;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 600;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  height: 30px;
+  min-height: fit-content;
+  width: fit-content;
+}
+.pickbtn:hover {
+  background-color: #8b7bd4;
+  box-shadow: 0px 15px 20px rgba(163, 200, 185, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+.showMusicName{
+  margin-top: 3%;
+  margin-bottom: 2%;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+  border-bottom: 1px solid;
+  padding-bottom: 0.5rem;
+  color: cornsilk;
+}
+
+@media screen and (max-width: 730px) {
+
+  .chat_container {
+      margin-left: 10px;
+      margin-right: 10px;
+      margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .chat_container {
+      height: calc(100% - 30px);
+  }
+
+  .username-page-container {
+      width: auto;
+      margin-left: 15px;
+      margin-right: 15px;
+      padding: 25px;
+  }
+
+  #chat-page ul {
+      height: calc(100% - 97px);
+  }
+
+  #messageForm .input_group button {
+      width: 65px;
+  }
+
+  #messageForm .input_group input {
+      width: calc(100% - 70px);
+  }
+
+  .chat_header {
+      padding: 10px;
+  }
+
+  .connecting {
+      top: 60px;
+  }
+
+  .chat_header h2 {
+      font-size: 1.1em;
+  }
+
+}
+/* 유저 리스트 */
+.user_info {
+  max-width: 40%;
+  box-shadow: rgba(0, 0, 0, 0.27) 0px 1px 11px;
+  position: relative;
+  height: 25rem;
+  max-height: 400px;
+  display: inline-block;
+  width: 30%;
+  vertical-align: bottom;
+  margin-left: 1%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.user_item {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.userImg {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  margin-left: 5%;
+}
+
+.noProfile {
+  width: 42px;
+    height: 42px;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 18px;
+    line-height: 42px;
+    color: #fff;
+    text-align: center;
+    border-radius: 50%;
+    font-style: normal;
+    text-transform: uppercase;
+    margin-left: 2%;
+}
+
+
+.captainlogo{
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  margin-left: 2%;
+}
+.nickname {
+  font-size: 1.2rem;
+  margin-left: 2%;
+  color: white;
+}
+.playerCount{
+  font-size: 1.5rem;
+  margin-left: 5%;
+  color: springgreen;
+}
+
+/* 레디 버튼 관련 */
+.button {
+  width: 100px;
+  height: 45px;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  margin-left: 5%;
+  }
+.startbutton{
+  width: 100px;
+  height: 45px;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #f5f2f2;
+  background-color: #ea4c4c;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(221, 116, 116, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  margin-left: 5%;
+  }
+.button:hover {
+  background-color: #2EE59D;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+.startbutton:hover {
+  background-color: #e277a0;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+/* 게임 옵션 */
+.game_option{
+  max-width: 27%;
+  box-shadow: rgba(0, 0, 0, 0.27) 0px 1px 11px;
+  position: relative;
+  height: 25rem;
+  max-height: 400px;
+  display: inline-block;
+  width: 27%;
+  vertical-align: bottom;
+  margin-left: 1%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+
+
+
+
