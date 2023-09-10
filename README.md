@@ -20,7 +20,7 @@ VR게임의 시대! 그런데 VR기기 너무 비싸고 불편하지 않나요? 
 
 ### 랭킹 창
 ![랭킹창](/uploads/3afec457adb570dd5650e011bd790728/랭킹창.gif)
-#### 더 자세한 정보는 https://lab.ssafy.com/s09-webmobile1-sub2/S09P12C206/-/blob/master/scenario-details.md 에서!
+#### 더 자세한 정보는 https://github.com/suminzzang/CatchPalm/blob/master/scenario-details.md 에서!
 
 ---
 
