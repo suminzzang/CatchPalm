@@ -1,7 +1,9 @@
 # CatchPalm - 손으로 리듬을 잡아라!
 ![로고](https://github.com/suminzzang/CatchPalm/assets/139725602/4e587c68-13dd-47fa-9faa-d2daa72c6b1a)
 ## 소개 및 시연 영상
+[![Video Label](https://youtu.be/jMLmCj-o7fY?si=aAubB57iCOmD7zyD/0.jpg)](https://youtu.be/jMLmCj-o7fY?si=aAubB57iCOmD7zyD)
 
+https://youtu.be/jMLmCj-o7fY?si=aAubB57iCOmD7zyD
 ## 개요
 VR게임의 시대! 그런데 VR기기 너무 비싸고 불편하지 않나요? 웹캠만 있으면 간편하게 즐길 수 있는 유사 VR 리듬게임 CatchPalm으로 즐겨보세요
 
