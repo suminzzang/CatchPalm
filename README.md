@@ -1,7 +1,7 @@
 # CatchPalm - 손으로 리듬을 잡아라!
 ![로고](https://github.com/suminzzang/CatchPalm/assets/139725602/4e587c68-13dd-47fa-9faa-d2daa72c6b1a)
 ## 소개 및 시연 영상
-[![Video Label](http://img.youtube.com/vi/4np2NYN1b9s/0.jpg)](https://youtu.be/4np2NYN1b9s)
+[![Video Label](http://img.youtube.com/vi/wPRVfF-MfNU/0.jpg)](https://youtu.be/wPRVfF-MfNU)
 
 https://youtu.be/jMLmCj-o7fY?si=aAubB57iCOmD7zyD
 ## 개요
