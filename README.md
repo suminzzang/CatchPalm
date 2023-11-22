@@ -3,7 +3,7 @@
 ## 소개 및 시연 영상
 [![Video Label](http://img.youtube.com/vi/wPRVfF-MfNU/0.jpg)](https://youtu.be/wPRVfF-MfNU)
 
-https://youtu.be/jMLmCj-o7fY?si=aAubB57iCOmD7zyD
+https://youtu.be/wPRVfF-MfNU?si=g98Vuw72vjqhvz_n
 ## 개요
 VR게임의 시대! 그런데 VR기기 너무 비싸고 불편하지 않나요? 웹캠만 있으면 간편하게 즐길 수 있는 유사 VR 리듬게임 CatchPalm으로 즐겨보세요
 
